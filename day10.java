@@ -13,6 +13,10 @@ public class day10 {
         System.out.println(" Nlai double mulai dari bilangan "+ Double.MIN_VALUE + "sampai " + Double.MAX_VALUE +"\n");
 
         System.out.println(" Nilai float mulai dari bilangan "+ Float.MIN_VALUE + "sampai" + Float.MAX_VALUE +"\n" );
- 
+        
+        char contoh = 'a';
+        System.out.println(" Tipe data char untuk menyimpan satu karakter seperti : " + contoh)
+
+        System.out.println(" Tipe data boolean untuk true dan false")
     }
 }
