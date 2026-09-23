@@ -9,8 +9,9 @@ public class day22 {
         System.out.println("variabel b  Sebelum dirubah  " + b);
         System.out.println("variabel a  Sebelum dirubah  " + a);
      
-        b = b - a;
-        a = b + b;
+       int tukar = a;
+        a = b;
+        b = tukar;
 
         System.out.println("variabel b sesudah di ubah " + b);
         System.out.println("variabel a sesudah di ubah " + a);
